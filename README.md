@@ -78,7 +78,7 @@ Edit `settings.json`
     ]
   },
   "invite": {
-    "enable": true,
+    "enable": false,
     "delay": {
       "min": 10, // Minimum delay in minute before joining server
       "max": 20  // Maximum delay in minute before joining server
