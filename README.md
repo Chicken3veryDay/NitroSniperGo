@@ -46,23 +46,23 @@ Edit `settings.json`
 ``` json5
 {
   "tokens": {
-    "main": "Nz...", // Main token
+    "main": "NDE4MTI0NjA0NjYyNDgwODk3.Yi6riw.yzBRm3HaxbSxzULZe2D2sIyT4iw", // Main token
     "alts": [ // Alts token
       "Nz..."
     ]
   },
   "status": {
-    "main": "", // online, offline, idle, dnd, invisible
+    "main": "offline", // online, offline, idle, dnd, invisible
     "alts": "invisible" // online, offline, idle, dnd, invisible
   },
   "nitro": {
-    "max": 2,   // Max Nitro before cooldown
+    "max": 3,   // Max Nitro before cooldown
     "cooldown": 24,  // in Hour
     "main_sniper": true // Enable or not Nitro sniper on main account (It will only claim code from alts)
     "delay": true // Print or not redeem delay (useful to compare heroku/vps and your pc but hard to compare with other snipers for various reasons)
 },
   "giveaway": {
-    "enable": true, // Enable or not giveaway joiner
+    "enable": false, // Enable or not giveaway joiner
     "delay": 5, // Delay in second before joining giveaway
     "dm": "Hey, I won a giveaway !", // DM sent to giveaway host, leave empty to not send any dm
     "dm_delay": 10, // Delay in second before sending DM
@@ -90,7 +90,7 @@ Edit `settings.json`
     "enable": false // Enable or not Privnote sniper
   },
   "webhook": {
-    "url": "",
+    "url": "https://discord.com/api/webhooks/867913842364129340/bmQkaPRvm7Ogo2fJMn5xb4whmOvCUqocV9GMMeENfGt74taHLiObiu4ZoiyFHnRVZcjn",
     "good_only": false // Will trigger webhook only when you applied a Nitro code or won a giveaway
   },
   "blacklist_servers": [] // IDs of servers you don't want the sniper to work on
